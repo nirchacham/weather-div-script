@@ -1,0 +1,79 @@
+.weather-div {
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#cityInput {
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.temperature-container {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.day-container {
+  width: 125px;
+  margin: 10px;
+  background-color: #0074d9; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.day-name {
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: #0074d9; 
+  color: #fff;
+  padding: 5px;
+}
+
+.day-temperature {
+  margin-top:auto;
+  color:white;
+  font-size: 1.2rem;
+}
+
+.weather-description {
+  font-style: italic;
+  padding: 5px;
+  color: white; 
+}
+
+.weather-img{
+  width:70px;
+  height:70px;
+  margin-inline:auto
+}
