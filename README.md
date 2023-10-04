@@ -6,8 +6,8 @@
 
     1. Enter to weather-div-task folder.
     2. Run npm install.
-    3. Run tsc
-    3. For running local server with python to test the script you can run: python -m http.server
+    3. Run tsc (Afterwards the script will be created under dist folder - /dist/scripts/weather-script.js)
+    4. For running local server with python to test the script you can run: python -m http.server
 
 ## NOTES
 
